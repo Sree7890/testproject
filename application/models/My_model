@@ -1,0 +1,13 @@
+<?php
+class My_model extends CI_Model{
+	public function Firstname()
+	{
+		return "Sree";
+		$Lastname=$this->Lastname();
+	}
+	private function Lastname()
+	{
+		return "Brahma";
+	}
+}
+?>
