@@ -11,6 +11,8 @@ class Pro1 extends CI_Controller {
 	}
 	
 	public function index() {
+
+		echo "abc";
 		$data['salesinfo'] = $this->Pro_Mod->get_salesinfo();
 		$this->load->view('salesinfo', $data);
 	}
